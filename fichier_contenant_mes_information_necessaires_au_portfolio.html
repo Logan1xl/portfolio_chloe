@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mon portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> FANKWE KEMGNE CHLOE ABIGAELLE SARIETTE</h1>
+        <P>ETUDIANTE EN CLASSE PREPARATOIRE EN INFORMATIQUE</P>
+    </header>
+    <section id="about">
+        <h2> A PROPOS DE MOI</h2>
+        <P> je suis une etudiante passionne "Chloé Fankwe, étudiante en informatique, passionnée par le développement web 🌐. J'aime créer des expériences numériques innovantes, résoudre des défis techniques et transformer des idées en projets concrets. En constante apprentissage, je me forme pour devenir une développeuse web accomplie. Explorez mon portfolio et Découvrez mes réalisations 😉</P>
+    </section>
+    <section id ="skills">
+        <h2>mes competences</h2>
+        <ul>
+            <li> HTML/CSS</li>
+            <li>LANGUAGE C </li>
+            <li> JAVA (debutant)</li>
+            <li>sociable </li>
+            <li>creative </li>
+            <li>ouverte aux apprentissage </li>
+        </ul>
+    </section>
+    <section id="projets">
+        <h2> MES PROJETS </h2>
+        <p>application de gestion de tache </p>
+        <p>site web personnel</p>
+        <p>application de gestion d'une discipline scolaire </p>
+        <p>application de gestion d'un hotel</p>
+    </section>
+    <section id="mon parcours ">
+        <h2> FORMATION ET EXPERIENCES</h2>
+        <ul>
+          <p> <li> 2022-2023
+                probatoire au college bilingue HERPHIL
+            </li>
+            <li> 2023-2024
+                baccalaureat au college bilingue HERPHIL
+            </li>
+            <li>2024-2025
+                premiere annee PREPARATOIRE a l'institut universitaire de la cote 
+            </li>
+            <li> 2025-2026
+                annee en cours 
+            </li></p> 
+        </ul>
+    </section>
+    <section id="contact">
+        <div class="page">
+
+  <div class="gauche">
+    <span class="statut">✦ Disponible pour vos projets</span>
+
+    <h1>Parlons de votre<br><i>projet</i> ensemble.</h1>
+
+    <p>Une idée, une question ou une opportunité de collaboration ? Je réponds personnellement à chaque message, généralement sous 24 h.</p>
+
+    <ul class="infos">
+      <li>
+        <span class="rond">
+          <svg viewBox="0 0 24 24">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+            <polyline points="22,6 12,13 2,6"/>
+          </svg>
+        </span>
+        chloefankwe@gmail.com
+      </li>
+      <li>
+        <span class="rond">
+          <svg viewBox="0 0 24 24">
+            <path d="M22 16.92v3a2 2 0 01-2.18 2 19.8 19.8 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.07-8.67A2 2 0 013.77 1.2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L7.91 8.96a16 16 0 006 6l1.06-1.06a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7a2 2 0 011.72 2.03v2.74z"/>
+          </svg>
+        </span>
+        +237 697 119 252
+      </li>
+      <li>
+        <span class="rond">
+          <svg viewBox="0 0 24 24">
+            <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/>
+            <circle cx="12" cy="10" r="3"/>
+          </svg>
+        </span>
+        Douala, Cameroun
+      </li>
+    </ul>
+  </div>
+
+  <div class="carte">
+    <h2>Envoyez un message</h2>
+    <p class="sous-titre">Les champs marqués * sont requis.</p>
+
+    <form id="monForm" novalidate>
+
+      <div class="ligne">
+        <div class="grp">
+          <label for="prenom">Prénom *</label>
+          <input type="text" id="prenom" name="prenom" placeholder="Chloe" required>
+        </div>
+        <div class="grp">
+          <label for="nom">Nom *</label>
+          <input type="text" id="nom" name="nom" placeholder="Fankwe" required>
+        </div>
+      </div>
+
+      <div class="grp">
+        <label for="email">E-mail *</label>
+        <input type="email" id="email" name="email" placeholder="XY@gmail.com" required>
+      </div>
+
+      <div class="grp">
+        <label for="sujet">Sujet *</label>
+        <select id="sujet" name="sujet" required>
+          <option value="" disabled selected>Choisissez…</option>
+          <option value="projet">Proposition de projet</option>
+          <option value="collab">Collaboration</option>
+          <option value="question">Question générale</option>
+          <option value="autre">Autre</option>
+        </select>
+      </div>
+
+      <div class="grp">
+        <label for="message">Message *</label>
+        <textarea id="message" name="message" placeholder="Décrivez votre demande…" required></textarea>
+      </div>
+
+      <button type="submit" class="envoyer">Envoyer →</button>
+
+    </form>
+
+    <div class="merci" id="merci">
+      <div class="ok">
+        <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+      </div>
+      <h3>C'est envoyé !</h3>
+      <p>Merci, je vous reviens très bientôt.</p>
+    </div>
+  </div>
+
+</div>
+
+        
+
+        
+    </section>
+</body>
+</html>
